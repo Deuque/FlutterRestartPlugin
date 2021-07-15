@@ -12,6 +12,6 @@ class FlutterRestart {
 //  }
     static Future<bool> restartApp() async{
       final result = await _channel.invokeMethod('restartApp');
-      return result;
+      //return result;
     }
 }
